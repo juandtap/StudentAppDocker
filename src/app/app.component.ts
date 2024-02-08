@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'StudentAppDocker';
+
+  students : any = []
+  addStudent(student: any){
+    this.students.push(student)
+  }
+
 }
